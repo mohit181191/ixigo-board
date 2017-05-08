@@ -1,0 +1,10 @@
+export const FETCH_LOADING = 'FETCH_LOADING';
+export const FETCH_SUCCESS = 'FETCH_SUCCESS';
+export const FETCH_FAIL = 'FETCH_FAIL';
+export const FILTER = 'FILTER';
+export const SAVE_LIST = 'SAVE_LIST'
+export const SAVE_CARD = 'SAVE_CARD';
+export const ON_CARD_DROP = 'ON_CARD_DROP';
+export const DELETE_CARD = 'DELETE_CARD';
+export const ON_DELETE_COLUMN = 'ON_DELETE_COLUMN';
+export const ON_SAVE_LIST_NAME = 'ON_SAVE_LIST_NAME';

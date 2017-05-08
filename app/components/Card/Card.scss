@@ -1,0 +1,25 @@
+.cardContainer {
+  margin: 8px;
+  background-color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.cardHeader {
+  height: 24px;
+  background-color: whitesmoke;
+}
+
+.cardFooter {
+  text-align: right;
+}
+
+.cardTextArea {
+  width: 230px;
+  height: 80px;
+}
+
+.cardBody {
+  word-wrap: break-word;
+}

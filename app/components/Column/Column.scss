@@ -1,0 +1,45 @@
+.columnContainer {
+  margin: 0 8px;
+  width: 270px;
+  background-color: lightgray;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  border-radius: 4px;
+}
+
+.columnHeader {
+  height: 24px;
+  padding: 4px 8px;
+  display: flex;
+  cursor: pointer;
+}
+
+.emptyCard {
+  height: 40px;
+  background-color: wheat;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.emptyCardFooter {
+  text-align: right;
+}
+
+.emptyCardContent {
+  width: 264px;
+  height: 80px;
+}
+
+.editList {
+  height: 24px;
+  padding: 4px 8px;
+  display: flex;
+}
+
+.columnName {
+  width: 80%;
+}

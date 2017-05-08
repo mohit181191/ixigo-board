@@ -1,0 +1,57 @@
+.boardHeader {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0067A3;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.columnsContainer {
+  padding-top: 8px;
+  position: absolute;
+  overflow-x: auto;
+  top: 48px;
+  height: calc(100% - 56px);
+}
+
+.addListContainer {
+  margin: 0 8px;
+  width: 270px;
+  background-color: #005586;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  border-radius: 4px;
+
+}
+
+.columnHeader {
+  height: 24px;
+  padding: 4px;
+}
+
+.addColumn {
+  width: 48px;
+  height: 48px;
+}
+
+.addList {
+  width: 270px;
+  height: 32px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.addListInput {
+  width: 264px;
+  height: 32px;
+}
+
+.addListFooter {
+  text-align: right;
+}
