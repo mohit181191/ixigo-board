@@ -25,6 +25,14 @@ class Columns extends Component {
     }
   }
 
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.columns !== this.props.columns) {
+      this.setState({
+        isEditing: false
+      })
+    }
+  }
+
   addList = () => {
     this.setState({
       isEditing: !this.state.isEditing
@@ -33,6 +41,9 @@ class Columns extends Component {
 
   onSaveList = () => {
     const value = this.refs.addList.value;
+    if (!value) {
+      return;
+    }
     this.props.saveList(value);
   }
 

@@ -82,6 +82,9 @@ class Column extends Component {
 
   onSaveCard = () => {
     const value = this.refs.emptyCard.value;
+    if (!value) {
+      return;
+    }
     this.props.onSaveCard(this.props.columnIndex, value);
     this.setState({
       isEditing: false

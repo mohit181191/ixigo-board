@@ -60,6 +60,9 @@ class Card extends Component {
   onSaveCard = () => {
     const {columnIndex , cardIndex} = this.props;
     const value = this.refs.cardContent.value;
+    if (!value) {
+      return;
+    }
     this.props.onSaveCard(columnIndex, value, cardIndex);
     this.setState({
       isEditing: !this.state.isEditing
